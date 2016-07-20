@@ -13,6 +13,8 @@
 		CBFD0C141D3F341F003947AA /* Hitlist_coreData1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBFD0C121D3F341F003947AA /* Hitlist_coreData1.xcdatamodeld */; };
 		CBFD0C161D3F341F003947AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFD0C151D3F341F003947AA /* Assets.xcassets */; };
 		CBFD0C191D3F341F003947AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFD0C171D3F341F003947AA /* LaunchScreen.storyboard */; };
+		CBFD0C221D3F3504003947AA /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD0C201D3F3504003947AA /* Person+CoreDataProperties.swift */; };
+		CBFD0C231D3F3504003947AA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD0C211D3F3504003947AA /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CBFD0C151D3F341F003947AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBFD0C181D3F341F003947AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBFD0C1A1D3F341F003947AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFD0C201D3F3504003947AA /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBFD0C211D3F3504003947AA /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		CBFD0BFF1D3F341F003947AA = {
 			isa = PBXGroup;
 			children = (
+				CBFD0C201D3F3504003947AA /* Person+CoreDataProperties.swift */,
+				CBFD0C211D3F3504003947AA /* Person.swift */,
 				CBFD0C0A1D3F341F003947AA /* Hitlist-coreData1 */,
 				CBFD0C091D3F341F003947AA /* Products */,
 			);
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFD0C231D3F3504003947AA /* Person.swift in Sources */,
+				CBFD0C221D3F3504003947AA /* Person+CoreDataProperties.swift in Sources */,
 				CBFD0C141D3F341F003947AA /* Hitlist_coreData1.xcdatamodeld in Sources */,
 				CBFD0C0E1D3F341F003947AA /* ViewController.swift in Sources */,
 				CBFD0C0C1D3F341F003947AA /* AppDelegate.swift in Sources */,
